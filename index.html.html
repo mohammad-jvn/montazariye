@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html class="dark" dir="rtl" lang="fa">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>مجموعه فرهنگی منتظریه مشهد | محفل انوار مهدوی و آئین‌های قدسی</title>
+  <meta name="description" content="پایگاه رسمی و پورتال جامع مجتمع فرهنگی منتظریه مشهد مقدس؛ رویدادها، آرشیو چندرسانه‌ای، کادرسازی نسل جوان و معارف رضوی"/>
+  <meta property="og:title" content="مجموعه فرهنگی منتظریه مشهد"/>
+  <meta property="og:description" content="پایگاه اندیشه‌ورزی، برگزاری محافل فاخر دینی و تولیدات چندرسانه‌ای در جوار بارگاه ملکوتی ثامن‌الحجج علیه‌السلام"/>
+  <meta property="og:type" content="website"/>
+
+  <!-- Google Fonts & Material Symbols -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <!-- Tailwind CSS CDN for 100% GitHub Pages compatibility (Zero build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface": "#061423",
+            "surface-dim": "#061423",
+            "surface-bright": "#2d3a4a",
+            "surface-container-lowest": "#020f1e",
+            "surface-container-low": "#0f1c2c",
+            "surface-container": "#132030",
+            "surface-container-high": "#1e2b3b",
+            "surface-container-highest": "#283646",
+            "surface-variant": "#283646",
+            "on-surface": "#d6e4f9",
+            "on-surface-variant": "#bbcac5",
+            "outline": "#869490",
+            "outline-variant": "#3c4946",
+            "primary": "#59dbc7",
+            "primary-container": "#00a896",
+            "on-primary": "#003731",
+            "on-primary-container": "#00352e",
+            "primary-fixed": "#79f7e3",
+            "primary-fixed-dim": "#59dbc7",
+            "secondary": "#e7c268",
+            "secondary-container": "#715600",
+            "on-secondary": "#3e2e00",
+            "on-secondary-container": "#f2cd72",
+            "secondary-fixed": "#ffdf96",
+            "secondary-fixed-dim": "#e7c268",
+            "tertiary": "#77d4e5",
+            "tertiary-container": "#40a2b3",
+            "on-tertiary": "#00363e",
+            "error": "#ffb4ab",
+            "error-container": "#93000a"
+          },
+          fontFamily: {
+            sans: ["Vazirmatn", "system-ui", "sans-serif"],
+            headline: ["Noto Serif", "Vazirmatn", "serif"],
+            body: ["Be Vietnam Pro", "Vazirmatn", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Bespoke Design System & Glassmorphism -->
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary/20 selection:text-primary">
+
+  <!-- ========================================================================= -->
+  <!-- NAVIGATION HEADER (Exact Stitch Design) -->
+  <!-- ========================================================================= -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_4px_30px_rgba(2,15,30,0.6)] border-b border-white/5">
+    <div class="h-20 w-full max-w-[1320px] mx-auto px-6 lg:px-12 flex items-center justify-between gap-4">
+      
+      <!-- Brand & Title -->
+      <div class="flex items-center gap-6">
+        <a class="flex items-center gap-3 group" href="index.html">
+          <div class="p-1 rounded-full bg-surface-container-high shadow-[0_0_15px_rgba(89,219,199,0.25)] border border-primary/20">
+            <img alt="نشان منتظریه" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ0WL2BMSOayqNdHLUdBA9AtN6VxaIDM5IrJ_ib_7Q_gT0tO3qIIEqNEztdyS7ngbd4D75EW22hlSSaYo_ikvGAxgp95p61ES-cLjCT42yh1Go7s0i17AlEqkEjSFL5wtmonLpF9uroPUSt-dNw_fKHsgzskDADejkAdFZA6jMbkFfvFxrjPbkPiwBxRLQJHoXRavJ0NKa_Npx3-0lL8pBk1EBysPAVpjkSklBddR4SxFcrGVqoVk04A"/>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-base font-bold text-on-surface group-hover:text-primary transition-colors tracking-tight">مجموعه فرهنگی منتظریه مشهد</span>
+            <span class="text-[10px] text-secondary font-medium tracking-wide">محفل انوار مهدوی و آئین‌های قدسی</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Bar -->
+        <nav class="hidden xl:flex items-center gap-1 bg-surface-container-low/60 p-1.5 rounded-full backdrop-blur-md border border-white/5">
+          <a class="px-4 py-2 rounded-full text-sm text-primary font-bold bg-surface-container-high/60 shadow-sm" href="index.html">خانه</a>
+          <a class="px-4 py-2 rounded-full text-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" href="events.html">رویدادها و برنامه‌ها</a>
+          <a class="px-4 py-2 rounded-full text-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" href="products.html">آرشیو چندرسانه‌ای و محصولات</a>
+          <a class="px-4 py-2 rounded-full text-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" href="about.html">درباره ما و ارکان</a>
+          <a class="px-4 py-2 rounded-full text-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" href="contact.html">تماس، خادمیاری و سفارشات</a>
+        </nav>
+      </div>
+
+      <!-- Left Header Controls -->
+      <div class="flex items-center gap-3">
+        <!-- Live Prayer Time Ticker -->
+        <div id="livePrayerTicker" class="hidden md:flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container-low/70 border border-white/5">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+          </span>
+          <span class="text-xs text-on-surface-variant font-medium">اوقات شرعی: مغرب ۱۷:۴۲</span>
+        </div>
+
+        <!-- Notification CTA Button -->
+        <a class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-gradient-to-l from-primary-container to-primary text-on-primary font-semibold text-xs shadow-[0_0_20px_rgba(0,168,150,0.35)] hover:shadow-[0_0_30px_rgba(89,219,199,0.5)] transition-all duration-300 transform hover:-translate-y-0.5" href="contact.html#newsletter">
+          <span>عضویت در شبکه اطلاع‌رسانی</span>
+        </a>
+
+        <!-- Mobile Drawer Toggle Button -->
+        <button id="mobileNavToggle" aria-label="منوی اصلی" class="xl:hidden p-2 rounded-xl bg-surface-container-high text-on-surface hover:text-primary transition-colors">
+          <span class="material-symbols-outlined text-2xl">menu</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobileNavDrawer" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-md">
+    <div class="absolute top-0 right-0 w-80 max-w-[85%] h-full bg-surface-container-low p-6 flex flex-col justify-between shadow-2xl border-l border-white/10">
+      <div>
+        <div class="flex items-center justify-between pb-6 border-b border-white/10 mb-6">
+          <div class="flex items-center gap-3">
+            <img alt="نشان منتظریه" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ0WL2BMSOayqNdHLUdBA9AtN6VxaIDM5IrJ_ib_7Q_gT0tO3qIIEqNEztdyS7ngbd4D75EW22hlSSaYo_ikvGAxgp95p61ES-cLjCT42yh1Go7s0i17AlEqkEjSFL5wtmonLpF9uroPUSt-dNw_fKHsgzskDADejkAdFZA6jMbkFfvFxrjPbkPiwBxRLQJHoXRavJ0NKa_Npx3-0lL8pBk1EBysPAVpjkSklBddR4SxFcrGVqoVk04A"/>
+            <span class="font-bold text-sm text-on-surface">مجموعه فرهنگی منتظریه</span>
+          </div>
+          <button id="mobileNavClose" class="p-1.5 rounded-lg text-outline hover:text-on-surface">
+            <span class="material-symbols-outlined text-2xl">close</span>
+          </button>
+        </div>
+
+        <nav class="flex flex-col gap-2">
+          <a class="px-4 py-3 rounded-xl bg-primary/15 text-primary font-bold text-sm flex items-center justify-between" href="index.html">
+            <span>صفحه اصلی</span>
+            <span class="material-symbols-outlined text-sm">home</span>
+          </a>
+          <a class="px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface text-sm flex items-center justify-between transition-colors" href="events.html">
+            <span>رویدادها و برنامه‌ها</span>
+            <span class="material-symbols-outlined text-sm">event</span>
+          </a>
+          <a class="px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface text-sm flex items-center justify-between transition-colors" href="products.html">
+            <span>آرشیو چندرسانه‌ای و محصولات</span>
+            <span class="material-symbols-outlined text-sm">video_library</span>
+          </a>
+          <a class="px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface text-sm flex items-center justify-between transition-colors" href="about.html">
+            <span>درباره ما و ارکان تخصصی</span>
+            <span class="material-symbols-outlined text-sm">info</span>
+          </a>
+          <a class="px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface text-sm flex items-center justify-between transition-colors" href="contact.html">
+            <span>تماس، خادمیاری و سفارشات</span>
+            <span class="material-symbols-outlined text-sm">support_agent</span>
+          </a>
+        </nav>
+      </div>
+
+      <div class="pt-6 border-t border-white/10 flex flex-col gap-3">
+        <a class="w-full py-3 rounded-xl bg-gradient-to-l from-primary-container to-primary text-on-primary font-bold text-center text-xs shadow-md" href="contact.html#newsletter">
+          عضویت در سامانه اطلاع‌رسانی
+        </a>
+        <span class="text-xs text-outline text-center">مشهد مقدس، هاشمیه ۲۰ • ۰۵۱-۳۲۲۱۰۰۰۰</span>
+      </div>
+    </div>
+  </div>
+
+  <main class="w-full pt-20 bg-surface">
+    <div class="flex flex-col w-full">
+
+      <!-- ========================================================================= -->
+      <!-- 1. HERO SECTION: باشکوه، سینمایی و با هوای معنوی مشهد الرضا (Exact Stitch) -->
+      <!-- ========================================================================= -->
+      <section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-container-lowest via-surface to-surface-container-low py-12 lg:py-20">
+        <!-- Ambient Luminous Spiritual Orbs -->
+        <div class="ambient-orb -top-24 right-1/4 w-96 h-96 bg-primary/10 blur-[140px]"></div>
+        <div class="ambient-orb top-1/3 left-10 w-[500px] h-[500px] bg-secondary/10 blur-[160px]"></div>
+        <div class="ambient-orb bottom-10 right-1/3 w-80 h-80 bg-tertiary/10 blur-[120px]"></div>
+
+        <div class="max-w-[1320px] mx-auto px-6 lg:px-12 relative z-10">
+          
+          <!-- Top Spiritual Pill Badge -->
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-xl shadow-lg border border-white/5 mb-8">
+            <span class="text-secondary text-sm leading-none animate-pulse">✦</span>
+            <span class="text-xs font-semibold text-secondary tracking-wide">پایگاه ترویج معارف مهدوی و رضوی در پایتخت معنوی ایران</span>
+            <span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+          </div>
+
+          <!-- Hero Grid Layout -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            
+            <!-- Right Column: Headline, Description & CTAs -->
+            <div class="lg:col-span-7 flex flex-col gap-6">
+              <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold font-headline text-on-surface leading-tight tracking-tight">
+                مجتمع فرهنگی <span class="text-primary">منتظریه</span>
+              </h1>
+              <p class="text-base sm:text-lg text-on-surface-variant font-light leading-relaxed max-w-2xl">
+                همراه با برنامه‌های فرهنگی، دوره‌های معرفتی، کادرسازی نسل جوان و رویدادهای تخصصی مجموعه فرهنگی منتظریه در پایتخت دل‌ها، مشهد مقدس. محفلی برای پیوند علم، ایمان، هنر آیینی و جهاد تبیین.
+              </p>
+
+              <!-- CTA Action Buttons -->
+              <div class="flex flex-wrap items-center gap-4 pt-2">
+                <a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-l from-primary-container to-primary text-on-primary font-semibold text-sm shadow-[0_0_25px_rgba(89,219,199,0.35)] hover:shadow-[0_0_35px_rgba(89,219,199,0.5)] transition-all transform hover:-translate-y-0.5" href="events.html">
+                  <span class="material-symbols-outlined text-xl">event_available</span>
+                  <span>مشاهده برنامه‌ها و مراسمات</span>
+                </a>
+                <a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-high/90 backdrop-blur-md text-secondary hover:bg-surface-bright font-semibold text-sm transition-all border border-secondary/20 shadow-md" href="products.html">
+                  <span class="material-symbols-outlined text-xl text-secondary">video_library</span>
+                  <span>ورود به گنجینه چندرسانه‌ای</span>
+                </a>
+              </div>
+
+              <!-- Key Quick Metrics -->
+              <div class="flex items-center gap-4 pt-4 flex-wrap">
+                <div class="flex items-center gap-2 text-xs text-outline">
+                  <span class="material-symbols-outlined text-primary text-base">location_on</span>
+                  <span>مشهد، بلوار وکیل‌آباد، هاشمیه ۲۰</span>
+                </div>
+                <span class="text-outline">•</span>
+                <div class="flex items-center gap-2 text-xs text-outline">
+                  <span class="material-symbols-outlined text-secondary text-base">verified</span>
+                  <span>فعالیت مستمر از سال ۱۳۸۵</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left Column: Floating Glassmorphic Official Emblem Showcase Card -->
+            <div class="lg:col-span-5">
+              <div class="relative group p-6 lg:p-8 rounded-3xl bg-surface-container/80 backdrop-blur-2xl shadow-2xl border border-white/10 overflow-hidden">
+                <!-- Background Accent Halos -->
+                <div class="absolute -top-16 -left-16 w-52 h-52 bg-primary/20 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="absolute -bottom-16 -right-16 w-52 h-52 bg-secondary/20 rounded-full blur-3xl pointer-events-none"></div>
+
+                <!-- Top Header Badges -->
+                <div class="flex items-center justify-between pb-4 relative z-10">
+                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container/40 text-secondary text-xs font-semibold border border-secondary/30">
+                    <span class="material-symbols-outlined text-sm text-secondary">verified</span>
+                    <span>نشان رسمی و میثاق فرهنگی</span>
+                  </span>
+                  <span class="text-xs text-primary-fixed-dim bg-primary-container/20 px-3 py-1 rounded-full border border-primary/20">
+                    مشهد الرضا (ع)
+                  </span>
+                </div>
+
+                <!-- Official Emblem Showcase Frame -->
+                <div class="relative w-full rounded-2xl overflow-hidden my-4 p-6 flex flex-col items-center justify-center bg-surface-container-lowest/80 border border-white/5 shadow-inner group-hover:border-primary/40 transition-colors duration-500">
+                  <div class="relative max-w-[220px] w-full flex items-center justify-center">
+                    <img class="w-full h-auto max-h-56 object-contain filter drop-shadow-[0_0_24px_rgba(89,219,199,0.25)] transform group-hover:scale-105 transition-transform duration-700" alt="نشان رسمی مجتمع فرهنگی منتظریه" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBN8o3HIeBH8mvsGTJnPK23dl3C1VX0t7GJL9BNml-jLNooTqq9Ih4eZdfuk0OF29R8aNbvN7GCAHbeD9m5xyNVWBnLiM7E4TPMEJR3J5LVQ2IO2CoJZqe2Dc0dMlVlRySdYsUg608eu5_8f2MsyO3G12ur9YnJJXtKUJDlr0y3ZHiAWJIXVA446vbLYCGgnXUtXLY_MjBiRAHdmNBkYKfgWrv6n6stcLlUDCiMU-yGQ4geJgK91UjO9pOuWw9mun7go54"/>
+                  </div>
+                </div>
+
+                <!-- Card Content & Typography -->
+                <div class="flex flex-col gap-2 mt-2 relative z-10">
+                  <h3 class="text-lg font-bold font-headline text-on-surface group-hover:text-primary transition-colors">
+                    روایت انتظار و پیوند با خورشید هشتم
+                  </h3>
+                  <p class="text-xs text-on-surface-variant leading-relaxed">
+                    مجتمع فرهنگی منتظریه با تکیه بر معارف اهل‌بیت (ع) و رسالت تمدن‌سازی مهدوی، بستری پویا برای گردهمایی جوانان متعهد، پژوهش‌های ژرف دینی و اعتلای جبهه فرهنگی انقلاب اسلامی در پایتخت معنوی ایران است.
+                  </p>
+
+                  <!-- Key Feature Micro Badges -->
+                  <div class="flex flex-wrap gap-2 pt-2">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container-low text-on-surface text-xs border border-white/5">
+                      <span class="material-symbols-outlined text-primary text-sm">school</span>
+                      <span>تربیت و کادرسازی نسل منتظر</span>
+                    </span>
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container-low text-on-surface text-xs border border-white/5">
+                      <span class="material-symbols-outlined text-secondary text-sm">campaign</span>
+                      <span>هیئت، اندیشه و جهاد تبیین</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- 2. ACTIVITY UNITS SECTION: ارکان و واحدهای تخصصی مجموعه منتظریه (Exact Stitch) -->
+      <!-- ========================================================================= -->
+      <section class="w-full py-16 lg:py-24 bg-surface relative" id="units">
+        <div class="max-w-[1320px] mx-auto px-6 lg:px-12">
+          
+          <!-- Section Header -->
+          <div class="flex flex-col items-center text-center gap-3 mb-14">
+            <span class="text-xs font-bold text-secondary px-4 py-1.5 rounded-full bg-secondary-container/20 border border-secondary/20">
+              ساختار پویا و تشکیلاتی
+            </span>
+            <h2 class="text-3xl lg:text-4xl font-bold font-headline text-on-surface">
+              ارکان و واحدهای تخصصی مجموعه فرهنگی منتظریه
+            </h2>
+            <p class="text-sm sm:text-base text-on-surface-variant max-w-2xl leading-relaxed">
+              هر یک از ارکان مجموعه، ماموریت ویژه‌ای را در هندسه ترویج معارف اهل‌بیت (ع) و کادرسازی متعهدانه ایفا می‌کند.
+            </p>
+          </div>
+
+          <!-- 5 Bento Luxury Cards Grid (Preserving exact layout from Stitch) -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <!-- Unit 1: واحد مراسمات و تعظیم شعائر (Larger Bento Span) -->
+            <div class="lg:col-span-2 p-7 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-xl border border-white/5 flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="w-12 h-12 rounded-xl bg-primary-container/20 text-primary flex items-center justify-center">
+                    <span class="material-symbols-outlined text-2xl">mosque</span>
+                  </span>
+                  <span class="text-xs text-secondary px-3 py-1 bg-secondary-container/20 rounded-full font-semibold">
+                    اقامه شعائر و ذکر اهل‌بیت (ع)
+                  </span>
+                </div>
+                <h3 class="text-xl font-bold font-headline text-on-surface mb-2 group-hover:text-primary transition-colors">
+                  واحد مراسمات، مناسبت‌ها و تعظیم شعائر
+                </h3>
+                <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+                  برگزاری منظم هیئت هفتگی، خیمه‌های معرفت، احیای شب‌های پرفیض قدر، اقامه عزای محرم و صفر و جشن‌های خجسته موالید معصومین (ع) با فضاسازی سنتی و فاخر رضوی و پذیرایی از زائران و مجاوران.
+                </p>
+              </div>
+              <div class="flex items-center justify-between pt-4 mt-4 border-t border-white/5 bg-surface-container-lowest/40 p-3 rounded-xl">
+                <span class="text-xs text-outline font-medium">جلسات ثابت: پنجشنبه‌شب‌ها و سحرهای جمعه</span>
+                <a class="inline-flex items-center gap-1 text-secondary text-xs font-semibold group-hover:text-secondary-fixed transition-colors" href="events.html">
+                  <span>برنامه مراسمات</span>
+                  <span class="material-symbols-outlined text-base">arrow_left</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Unit 2: واحد آموزش و پژوهش -->
+            <div class="p-7 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-xl border border-white/5 flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="w-12 h-12 rounded-xl bg-secondary-container/30 text-secondary flex items-center justify-center">
+                    <span class="material-symbols-outlined text-2xl">menu_book</span>
+                  </span>
+                  <span class="text-xs text-secondary px-3 py-1 bg-secondary-container/20 rounded-full font-semibold">
+                    عمق فکری و اندیشه
+                  </span>
+                </div>
+                <h3 class="text-xl font-bold font-headline text-on-surface mb-2 group-hover:text-secondary transition-colors">
+                  واحد آموزش، پژوهش و گفتمان
+                </h3>
+                <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+                  برگزاری دوره‌های معرفتی نظام اندیشه اسلامی، کارگاه‌های فلسفه و کلام، سواد رسانه‌ای، پاسخ به شبهات اعتقادی و تربیت پژوهشگران جوان در علوم انسانی-اسلامی.
+                </p>
+              </div>
+              <div class="flex items-center justify-between pt-4 mt-4 border-t border-white/5 bg-surface-container-lowest/40 p-3 rounded-xl">
+                <span class="text-xs text-outline">کلاس‌های حضوری و آنلاین</span>
+                <a class="inline-flex items-center gap-1 text-secondary text-xs font-semibold" href="about.html#education">
+                  <span>سرفصل‌ها</span>
+                  <span class="material-symbols-outlined text-base">arrow_left</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Unit 3: واحد رسانه و هنر -->
+            <div class="p-7 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-xl border border-white/5 flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="w-12 h-12 rounded-xl bg-tertiary-container/30 text-tertiary flex items-center justify-center">
+                    <span class="material-symbols-outlined text-2xl">videocam</span>
+                  </span>
+                  <span class="text-xs text-tertiary px-3 py-1 bg-tertiary-container/20 rounded-full font-semibold">
+                    تولید و بازنمایی هنری
+                  </span>
+                </div>
+                <h3 class="text-xl font-bold font-headline text-on-surface mb-2 group-hover:text-tertiary transition-colors">
+                  واحد رسانه، هنر و فضای مجازی
+                </h3>
+                <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+                  تولید مستندهای اجتماعی، کلیپ‌های تبیینی، نماهنگ‌های آیینی، طراحی پوسترهای مفهومی و هدایت استودیو ضبط پادکست‌های تخصصی منتظران ظهور.
+                </p>
+              </div>
+              <div class="flex items-center justify-between pt-4 mt-4 border-t border-white/5 bg-surface-container-lowest/40 p-3 rounded-xl">
+                <span class="text-xs text-outline">پخش زنده 4K رویدادها</span>
+                <a class="inline-flex items-center gap-1 text-tertiary text-xs font-semibold" href="products.html">
+                  <span>گالری رسانه</span>
+                  <span class="material-symbols-outlined text-base">arrow_left</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Unit 4: واحد خدمات اجتماعی و جهادی -->
+            <div class="p-7 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-xl border border-white/5 flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="w-12 h-12 rounded-xl bg-secondary-container/20 text-secondary-fixed flex items-center justify-center">
+                    <span class="material-symbols-outlined text-2xl">volunteer_activism</span>
+                  </span>
+                  <span class="text-xs text-secondary-fixed px-3 py-1 bg-secondary-container/20 rounded-full font-semibold">
+                    مواسات و گره‌گشایی
+                  </span>
+                </div>
+                <h3 class="text-xl font-bold font-headline text-on-surface mb-2 group-hover:text-secondary-fixed transition-colors">
+                  واحد خدمات اجتماعی و اردوهای جهادی
+                </h3>
+                <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+                  اسکان و پذیرایی از زائران محروم و بی‌بضاعت امام رضا (ع)، تهیه و توزیع بسته‌های معیشتی کرامت، و اعزام گروه‌های جهادی به مناطق کم‌برخوردار حاشیه مشهد.
+                </p>
+              </div>
+              <div class="flex items-center justify-between pt-4 mt-4 border-t border-white/5 bg-surface-container-lowest/40 p-3 rounded-xl">
+                <span class="text-xs text-outline">پویش مستمر ماهانه</span>
+                <a class="inline-flex items-center gap-1 text-secondary-fixed text-xs font-semibold" href="contact.html#volunteer">
+                  <span>مشارکت جهادی</span>
+                  <span class="material-symbols-outlined text-base">arrow_left</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Unit 5: واحد نوجوانان و جوانان باشگاه رویش -->
+            <div class="p-7 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-xl border border-white/5 flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="w-12 h-12 rounded-xl bg-primary-container/20 text-primary-fixed-dim flex items-center justify-center">
+                    <span class="material-symbols-outlined text-2xl">school</span>
+                  </span>
+                  <span class="text-xs text-primary-fixed-dim px-3 py-1 bg-primary-container/20 rounded-full font-semibold">
+                    رویش و کادرسازی
+                  </span>
+                </div>
+                <h3 class="text-xl font-bold font-headline text-on-surface mb-2 group-hover:text-primary transition-colors">
+                  واحد نوجوانان و جوانان (باشگاه رویش)
+                </h3>
+                <p class="text-sm text-on-surface-variant leading-relaxed mb-4">
+                  حلقه‌های معرفتی صالحین، اردوهای کوهنوردی و هویتی، اعتکاف‌های تخصصی دانش‌آموزی و کادرسازی فعالان فرهنگی آینده در بستر تربیتی متعهدانه.
+                </p>
+              </div>
+              <div class="flex items-center justify-between pt-4 mt-4 border-t border-white/5 bg-surface-container-lowest/40 p-3 rounded-xl">
+                <span class="text-xs text-outline">ویژه سنین ۱۲ الی ۲۴ سال</span>
+                <a class="inline-flex items-center gap-1 text-primary text-xs font-semibold" href="contact.html#volunteer">
+                  <span>عضویت نوجوانان</span>
+                  <span class="material-symbols-outlined text-base">arrow_left</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- 3. FEATURED MEDIA & PRODUCTIONS: تازه‌های جبهه فرهنگی و رسانه‌ای (Exact Stitch) -->
+      <!-- ========================================================================= -->
+      <section class="w-full py-16 lg:py-24 bg-surface-container-lowest relative" id="media-showcase">
+        <div class="max-w-[1320px] mx-auto px-6 lg:px-12">
+          
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+            <div class="flex flex-col gap-2">
+              <span class="text-xs font-bold text-tertiary px-3.5 py-1 rounded-full bg-tertiary-container/20 w-fit">
+                گنجینه چندرسانه‌ای
+              </span>
+              <h2 class="text-3xl lg:text-4xl font-bold font-headline text-on-surface">
+                تازه‌های جبهه فرهنگی و رسانه‌ای
+              </h2>
+            </div>
+            <a class="text-xs font-bold text-primary hover:text-primary-fixed flex items-center gap-1" href="products.html">
+              <span>مشاهده تمام آثار و دانلود رایگان</span>
+              <span class="material-symbols-outlined text-base">arrow_left</span>
+            </a>
+          </div>
+
+          <!-- Media Grid: Master Playable Banner + Side Cards -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+            
+            <!-- Large Featured Player Card -->
+            <div class="lg:col-span-6 p-6 sm:p-8 rounded-3xl bg-surface-container-low shadow-2xl border border-white/5 flex flex-col justify-between audio-player-container">
+              <div>
+                <div class="relative h-64 w-full rounded-2xl overflow-hidden mb-6 group bg-surface-container-lowest">
+                  <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="نماهنگ خورشید خراسان" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDndx5PSriZLIfV3N8OW2y3n6NytE_FekAXmOV23ISUSAaS7_quQ94p_zM83SbNxY2F9Gr4qDyAqucRy1AZAmMAAvq0Ty8_AsWHr6UUEljzAVodd0P3yyE3SZKrSH0qH6-R7lz84-IhEXvWm_At7xcCE_emX7No4YoNmxR85jc8-7Ik-4FaG1rucWJoA3ieUWvbJTDz_SRXpK_oOijGgBNrd_UBMCZUFxk2Xd538oYSfC2Uh1ZK6l7pfw"/>
+                  <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+                  
+                  <!-- Play Button Triggering Video Modal -->
+                  <button aria-label="پخش نماهنگ" class="open-video-modal absolute inset-0 m-auto w-16 h-16 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-xl shadow-primary/40 transform hover:scale-110 transition-transform" data-title="نماهنگ قدسی «خورشید خراسان» و ترنم انتظار">
+                    <span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+                  </button>
+
+                  <span class="absolute top-4 right-4 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full text-secondary text-xs font-semibold">
+                    نماهنگ شاخص
+                  </span>
+                  <span class="absolute bottom-4 left-4 px-3 py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full text-on-surface text-xs font-mono">
+                    مدت: ۱۲:۴۵ دقیقه
+                  </span>
+                </div>
+
+                <h3 class="text-xl font-bold font-headline text-on-surface mb-2">
+                  نماهنگ قدسی «خورشید خراسان» و ترنم انتظار
+                </h3>
+                <p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed mb-6">
+                  اثر ویژه گروه سرود و رسانه مجموعه فرهنگی منتظریه، ضبط شده در صحن انقلاب اسلامی حرم مطهر رضوی به مناسبت ایام ولادت امام مهربانی‌ها.
+                </p>
+
+                <!-- Audio Scrubber Visual -->
+                <div class="bg-surface-container p-4 rounded-xl mb-6">
+                  <div class="flex items-center justify-between text-xs text-outline mb-2">
+                    <span class="audio-current-time font-mono">04:18</span>
+                    <span class="text-secondary font-medium">پخش آنلاین با کیفیت استودیویی</span>
+                    <span class="font-mono">12:45</span>
+                  </div>
+                  <div class="w-full h-2 rounded-full bg-surface-variant overflow-hidden cursor-pointer">
+                    <div class="audio-progress-fill h-full bg-gradient-to-l from-primary to-secondary w-1/3 rounded-full transition-all"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-between pt-2 flex-wrap gap-3">
+                <button class="audio-play-trigger inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-on-primary font-semibold text-xs hover:bg-primary-fixed transition-all" data-playing="false">
+                  <span class="material-symbols-outlined text-base">play_circle</span>
+                  <span>پخش آنلاین صوت</span>
+                </button>
+                <a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-surface-container-high text-on-surface hover:bg-surface-bright font-semibold text-xs transition-all" href="products.html">
+                  <span class="material-symbols-outlined text-base">download</span>
+                  <span>دریافت نسخه 4K / MP3</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- 3 Side Media Cards -->
+            <div class="lg:col-span-6 flex flex-col gap-5 justify-between">
+              
+              <!-- Media Item 1: پادکست صوتی با پخش اختصاصی -->
+              <div class="flex flex-col sm:flex-row items-center gap-5 p-5 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all shadow-lg border border-white/5 audio-player-container group">
+                <div class="relative w-full sm:w-36 h-28 rounded-xl overflow-hidden shrink-0 bg-surface-container">
+                  <img class="w-full h-full object-cover group-hover:scale-105 transition-transform" alt="پادکست افق روشن" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBivZyd66TOOcr1I8eQnvwk9bwbLPjPwSALeDjdPfkGINTgulwnoc_-k4Oj5nCX6KBaivlWzVBe_WE5ezVITUX1NHNclAy11SuQUAqgzCB3CBxUyRJOmUMRvOL-E45pw5l_LN7vUkax-HgBjhQl8s61D8b85rQ2vptVGSPbwlr8Nbj2Qo8BpQIPP30H97zWfCu-g08uQmD8ncAjcNmBvml50tfKKxfF_8w4hlINHDV0gQWJPljvJ4KJIw"/>
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-container-lowest/80 text-secondary text-[11px] font-semibold">
+                    صوتی
+                  </span>
+                </div>
+                <div class="flex flex-col gap-1.5 w-full">
+                  <span class="text-xs text-primary font-medium">پادکست افق روشن | قسمت ۲۸</span>
+                  <h4 class="text-base font-bold font-headline text-on-surface group-hover:text-primary transition-colors">
+                    چگونه در عصر هیاهو، آرامش و حضور قلب پایدار داشته باشیم؟
+                  </h4>
+                  <div class="flex items-center justify-between text-outline text-xs pt-1">
+                    <span>مدت: ۳۲ دقیقه</span>
+                    <button class="audio-play-trigger inline-flex items-center gap-1 text-secondary hover:text-secondary-fixed text-xs font-semibold" data-playing="false">
+                      <span>شنیدن پادکست</span>
+                      <span class="material-symbols-outlined text-base">headphones</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Media Item 2: سخنرانی تصویری -->
+              <div class="flex flex-col sm:flex-row items-center gap-5 p-5 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all shadow-lg border border-white/5 group">
+                <div class="relative w-full sm:w-36 h-28 rounded-xl overflow-hidden shrink-0 bg-surface-container">
+                  <img class="w-full h-full object-cover group-hover:scale-105 transition-transform" alt="جلسات بینش تمدنی" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAU4up4J4yrAyju8dTH_cxCsyKF9XIPfnh4RKFyxrDgxGs-bZYdRz-GfZvFpFC-YwdFqmbTQJTugX4r4lm13WSZpjqrVNgmhepqXaZh0-l44lr0fK3ZSMCMZ-_8fEhSbnqrJC4YvGUh9vHbw3YdweY3WGk68CdvXJzjquuhvQ-MKob8kAResa-dhf_Tv6VJbI5aMFctNumUWYuu_TB67o7gzHavnD22tz9NmZz6EjkLsbuTJHifon4bJg"/>
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-container-lowest/80 text-primary text-[11px] font-semibold">
+                    سخنرانی
+                  </span>
+                </div>
+                <div class="flex flex-col gap-1.5 w-full">
+                  <span class="text-xs text-secondary font-medium">جلسات بینش تمدنی</span>
+                  <h4 class="text-base font-bold font-headline text-on-surface group-hover:text-secondary transition-colors">
+                    مؤلفه‌های جامعه منتظر در گفتمان قرآن و روایات اهل‌بیت (ع)
+                  </h4>
+                  <div class="flex items-center justify-between text-outline text-xs pt-1">
+                    <span>سخنران: حجت‌الاسلام موسوی</span>
+                    <button class="open-video-modal inline-flex items-center gap-1 text-primary hover:text-primary-fixed text-xs font-semibold" data-title="مؤلفه‌های جامعه منتظر در گفتمان قرآن و روایات">
+                      <span>مشاهده کلیپ</span>
+                      <span class="material-symbols-outlined text-base">smart_display</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Media Item 3: نشریه و جزوه دانلودی -->
+              <div class="flex flex-col sm:flex-row items-center gap-5 p-5 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all shadow-lg border border-white/5 group">
+                <div class="relative w-full sm:w-36 h-28 rounded-xl overflow-hidden shrink-0 bg-surface-container">
+                  <img class="w-full h-full object-cover group-hover:scale-105 transition-transform" alt="گاهنامه اندیشه‌ورزان" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqrPNFxIa91DUzZae030bc7wKGnxhaSUXpjIbfgOu2cZff_SDWJtFMp45NBFObLkU50Wcp3jSywEr1SEGxyQS88SrJr2q8MHgl3gAAb75MBIFsTQBKYEaCSUJkJH3iawuieaOUwRl4_0uhcEAkAXV2O1i6wJsIiMNeHnmeTneYLfe3YHaNJO0-f65s5csMHmlOyTSL9VsW1Hq40wG645HimEHnLIW1xr1aFn8yyr96KEOrjZkbFrjUig"/>
+                  <span class="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-surface-container-lowest/80 text-secondary-fixed text-[11px] font-semibold">
+                    نشریه PDF
+                  </span>
+                </div>
+                <div class="flex flex-col gap-1.5 w-full">
+                  <span class="text-xs text-secondary-fixed font-medium">گاهنامه اندیشه‌ورزان</span>
+                  <h4 class="text-base font-bold font-headline text-on-surface group-hover:text-secondary-fixed transition-colors">
+                    شماره جدید دوفصلنامه «ندای انتظار» (ویژه‌نامه جوانان و تمدن نوین)
+                  </h4>
+                  <div class="flex items-center justify-between text-outline text-xs pt-1">
+                    <span>حجم: ۸ مگابایت (رایگان)</span>
+                    <a class="inline-flex items-center gap-1 text-secondary-fixed hover:underline text-xs font-semibold" href="products.html">
+                      <span>دریافت فایل</span>
+                      <span class="material-symbols-outlined text-base">picture_as_pdf</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================================================= -->
+      <!-- 4. SMART BOT & INSTANT MESSAGING: همراهی هوشمند در پیام‌رسان‌ها (Exact Stitch) -->
+      <!-- ========================================================================= -->
+      <section class="w-full py-16 lg:py-24 bg-surface relative overflow-hidden" id="notification-hub">
+        <div class="ambient-orb bottom-0 right-1/4 w-96 h-96 bg-primary/10 blur-3xl"></div>
+        <div class="max-w-[1320px] mx-auto px-6 lg:px-12 relative z-10">
+          <div class="p-8 sm:p-12 lg:p-14 rounded-3xl bg-surface-container-low shadow-2xl border border-white/5">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+              
+              <!-- Text Content -->
+              <div class="lg:col-span-7 flex flex-col gap-5">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-secondary-container/20 text-secondary w-fit text-xs font-semibold">
+                  <span class="material-symbols-outlined text-sm">bolt</span>
+                  <span>اتصال بی‌واسطه و لحظه‌ای</span>
+                </div>
+
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold font-headline text-on-surface leading-tight">
+                  همراهی هوشمند و بی‌درنگ در پیام‌رسان‌ها
+                </h2>
+
+                <p class="text-sm sm:text-base text-on-surface-variant leading-relaxed">
+                  برای دریافت به موقع اعلانات مراسم‌ها، رزرو فوری صندلی در همایش‌ها، دانلود فایل‌های صوتی سخنرانی‌ها بلافاصله پس از اتمام جلسه و ارسال نظرات، به ربات اختصاصی و کانال‌های رسمی مجموعه فرهنگی منتظریه بپیوندید.
+                </p>
+
+                <!-- Feature Checkpoints -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs font-medium text-on-surface">
+                  <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                    <span>ارسال خودکار فایل صوتی و تصویری هر جلسه</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                    <span>صدور آنی بارکد ورود همایش‌ها و رویدادها</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                    <span>سامانه پرسش و پاسخ با اساتید مجموعه</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                    <span>ثبت‌نام سریع در اردوها و کارگاه‌های معرفتی</span>
+                  </div>
+                </div>
+
+                <!-- Action Buttons for Bots & Telegram Ordering -->
+                <div class="flex flex-wrap items-center gap-4 pt-4">
+                  <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-secondary-container text-on-secondary-container font-semibold text-xs hover:bg-secondary hover:text-on-secondary transition-all shadow-md" href="https://t.me/Montazarieh_Admin" target="_blank" rel="noopener noreferrer">
+                    <span class="material-symbols-outlined text-base">send</span>
+                    <span>کانال و ربات رسمی در تلگرام</span>
+                  </a>
+                  <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-surface-container-high text-on-surface font-semibold text-xs hover:bg-surface-bright transition-all border border-white/5" href="https://eitaa.com/Montazarieh_Support" target="_blank" rel="noopener noreferrer">
+                    <span class="material-symbols-outlined text-base text-primary">smart_toy</span>
+                    <span>ورود به کانال و بات در ایتا</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Phone / Bot Mockup Showcase Card (Interactive Simulator) -->
+              <div class="lg:col-span-5 flex justify-center">
+                <div class="w-full max-w-sm rounded-2xl bg-surface-container-lowest p-5 shadow-2xl border border-white/10">
+                  
+                  <!-- Mockup Header -->
+                  <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-4">
+                    <div class="flex items-center gap-3">
+                      <div class="w-10 h-10 rounded-full bg-primary-container/30 text-primary flex items-center justify-center font-bold">
+                        <span class="material-symbols-outlined text-xl">account_tree</span>
+                      </div>
+                      <div class="flex flex-col">
+                        <span class="text-xs font-bold text-on-surface">دستیار هوشمند منتظریه مشهد</span>
+                        <span class="text-[11px] text-primary flex items-center gap-1">
+                          <span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+                          آنلاین | پاسخگویی خودکار
+                        </span>
+                      </div>
+                    </div>
+                    <span class="material-symbols-outlined text-outline text-lg">more_vert</span>
+                  </div>
+
+                  <!-- Mockup Chat Bubbles -->
+                  <div class="flex flex-col gap-3 py-2 text-xs">
+                    <div class="p-3 rounded-xl rounded-tr-none bg-surface-container-high text-on-surface-variant max-w-[85%] self-start leading-relaxed">
+                      سلام و درود برادر گرامی! به سامانه خادم‌یار و دستیار هوشمند مجموعه فرهنگی منتظریه مشهد الرضا خوش آمدید. برای کدام خدمت اقدام می‌فرمایید؟
+                    </div>
+
+                    <div class="p-3 rounded-xl rounded-tl-none bg-primary-container text-on-primary-container max-w-[75%] self-end font-medium">
+                      درخواست رزرو صندلی مراسم شب جمعه و دریافت صوت جلسه قبل
+                    </div>
+
+                    <div class="p-3 rounded-xl rounded-tr-none bg-surface-container-high text-on-surface-variant max-w-[90%] self-start leading-relaxed">
+                      <span class="text-secondary font-semibold block mb-1">✓ رزرو با موفقیت انجام شد!</span>
+                      شماره صندلی: ب-۱۱۴ <br/>
+                      فایل صوتی جلسه قبل با نوای ذاکران بارگذاری شد (حجم: ۲۴ مگابایت).
+                    </div>
+                  </div>
+
+                  <!-- Mockup Interactive Buttons -->
+                  <div class="grid grid-cols-2 gap-2 mt-4 pt-2">
+                    <a class="p-2 text-center rounded-lg bg-surface-container text-on-surface text-[11px] hover:bg-surface-container-high transition-colors" href="events.html">
+                      📅 برنامه جلسات هفتگی
+                    </a>
+                    <a class="p-2 text-center rounded-lg bg-surface-container text-on-surface text-[11px] hover:bg-surface-container-high transition-colors" href="products.html">
+                      🎙 گنجینه صوتی و نوحه‌ها
+                    </a>
+                    <a class="p-2 text-center rounded-lg bg-surface-container text-on-surface text-[11px] hover:bg-surface-container-high transition-colors" href="contact.html#map">
+                      📍 موقعیت مکانی و پارکینگ
+                    </a>
+                    <a class="p-2 text-center rounded-lg bg-secondary-container/40 text-secondary text-[11px] font-semibold hover:bg-secondary-container/60 transition-colors" href="contact.html#volunteer">
+                      ✍ ثبت‌نام خادمیاری افتخاری
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Video Modal (Vanilla JS) -->
+  <div id="videoModal" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="relative w-full max-w-4xl rounded-3xl bg-surface-container-low border border-white/10 overflow-hidden shadow-2xl p-6 flex flex-col gap-4">
+      <div class="flex items-center justify-between pb-3 border-b border-white/10">
+        <h3 id="videoModalTitle" class="text-lg font-bold font-headline text-on-surface">نماهنگ آیینی «خورشید خراسان»</h3>
+        <button id="closeVideoModal" class="p-1.5 rounded-lg text-outline hover:text-on-surface">
+          <span class="material-symbols-outlined text-2xl">close</span>
+        </button>
+      </div>
+      <div class="relative w-full aspect-video rounded-2xl overflow-hidden bg-black flex items-center justify-center">
+        <img class="w-full h-full object-cover" alt="پیش نمایش ویدیو" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJexH018x69vn8uvZR8FSP98IKB0PS_lcNK6k24NVPRXw15Sy6tomFsAgKurwhB7OVU65HXTLQ1SySHLidLgEsg-B6ZURPpqTRuDWbmQ-DtXIpe4BJPG_vHpABXIJFl8RP5lNnUhiXNwg5QlMoh1mcLbKyJbBsZuyujMkqYnPg55vPhl0ey5Z79UNDtmILuf40cEMXHHOtkjVcE0N4UbWr9rR8HKqfmGSRzzygV9-eRtiZALGjI3NgVw"/>
+        <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+          <div class="text-center flex flex-col items-center gap-3">
+            <span class="material-symbols-outlined text-6xl text-primary animate-pulse" style="font-variation-settings: 'FILL' 1;">play_circle</span>
+            <p class="text-xs text-on-surface">پخش با بالاترین کیفیت در بستر شبکه ملی یا دریافت فایل مستقیم</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between pt-2">
+        <span class="text-xs text-outline">کیفیت 4K UHD • تولید رسمی مرکز رسانه‌ای منتظریه</span>
+        <a class="px-4 py-2 rounded-xl bg-primary text-on-primary font-semibold text-xs" href="products.html">
+          مشاهده تمام کیفیت‌ها و دانلود مستقیم
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- FOOTER: پایگاه اندیشه‌ورزی و معارف رضوی (Exact Stitch) -->
+  <!-- ========================================================================= -->
+  <footer class="w-full bg-surface-container-lowest text-on-surface-variant shadow-[0_-1px_30px_rgba(0,0,0,0.3)] border-t border-white/5">
+    <div class="w-full max-w-[1320px] mx-auto px-6 lg:px-12 pt-16 pb-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12">
+        
+        <!-- Col 1: About & Info -->
+        <div class="lg:col-span-4 flex flex-col gap-5">
+          <div class="flex items-center gap-3">
+            <div class="p-1 rounded-full bg-surface-container-high shadow-[0_0_20px_rgba(89,219,199,0.25)] border border-primary/20">
+              <img alt="نشان منتظریه" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ0WL2BMSOayqNdHLUdBA9AtN6VxaIDM5IrJ_ib_7Q_gT0tO3qIIEqNEztdyS7ngbd4D75EW22hlSSaYo_ikvGAxgp95p61ES-cLjCT42yh1Go7s0i17AlEqkEjSFL5wtmonLpF9uroPUSt-dNw_fKHsgzskDADejkAdFZA6jMbkFfvFxrjPbkPiwBxRLQJHoXRavJ0NKa_Npx3-0lL8pBk1EBysPAVpjkSklBddR4SxFcrGVqoVk04A"/>
+            </div>
+            <div>
+              <span class="text-lg font-bold text-on-surface block">مجموعه فرهنگی منتظریه مشهد</span>
+              <span class="text-xs text-secondary">نهاد مردمی، ترویج فرهنگ انتظار و معارف رضوی</span>
+            </div>
+          </div>
+          <p class="text-sm leading-relaxed text-on-surface-variant/90 max-w-sm">
+            پایگاه اندیشه‌ورزی، برگزاری محافل فاخر دینی، کارگاه‌های تخصصی فرهنگی و پرورش خادمان شایسته جامعه مهدوی در جوار ملکوتی ثامن‌الحجج علیه‌السلام.
+          </p>
+          <div class="flex flex-col gap-2 pt-2 text-xs text-on-surface-variant">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-primary text-base">location_on</span>
+              <span>مشهد مقدس، بلوار وکیل‌آباد، هاشمیه ۲۰</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-primary text-base">call</span>
+              <span dir="ltr">051-32210000</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-primary text-base">mail</span>
+              <span dir="ltr">info@montazarieh.ir</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="lg:col-span-2 flex flex-col gap-4">
+          <span class="text-sm font-bold text-secondary tracking-wide">دسترسی سریع</span>
+          <nav class="flex flex-col gap-2.5 text-sm">
+            <a class="text-primary font-bold transition-colors" href="index.html">صفحه نخست</a>
+            <a class="text-on-surface-variant hover:text-on-surface transition-colors" href="events.html">رویدادها و همایش‌ها</a>
+            <a class="text-on-surface-variant hover:text-on-surface transition-colors" href="products.html">نگارخانه، صوت و محصولات</a>
+            <a class="text-on-surface-variant hover:text-on-surface transition-colors" href="about.html">واحدهای تخصصی و ارکان</a>
+            <a class="text-on-surface-variant hover:text-on-surface transition-colors" href="about.html#timeline">تاریخچه و اهداف</a>
+          </nav>
+        </div>
+
+        <!-- Col 3: Collaboration & Khademyar -->
+        <div class="lg:col-span-2 flex flex-col gap-4">
+          <span class="text-sm font-bold text-secondary tracking-wide">همراهی و مشارکت</span>
+          <nav class="flex flex-col gap-2.5 text-sm">
+            <a class="text-on-surface-variant hover:text-on-surface transition-colors" href="contact.html#volunteer">سامانه جذب خادمیار</a>
+            <a class="text-on-surface-variant hover:text-on-surface transition-colors" href="contact.html#order">سفارش مستقیم تلگرام</a>
+            <a class="text-on-surface-variant hover:text-on-surface transition-colors" href="contact.html#faq">پرسش‌های پرتکرار</a>
+            <a class="text-on-surface-variant hover:text-on-surface transition-colors" href="contact.html">ارتباط با روابط عمومی</a>
+          </nav>
+        </div>
+
+        <!-- Col 4: SMS Club & Social Media -->
+        <div class="lg:col-span-4 flex flex-col gap-5" id="newsletter">
+          <span class="text-sm font-bold text-secondary tracking-wide">شبکه اطلاع‌رسانی پیامکی</span>
+          <p class="text-xs text-on-surface-variant leading-relaxed">
+            جهت دریافت زمان‌بندی مراسمات، اطلاعیه‌ها و ویژه‌برنامه‌های مناسبتی، شماره همراه خود را ثبت نمایید.
+          </p>
+          <form class="sms-signup-form flex flex-col sm:flex-row gap-2 max-w-md">
+            <div class="relative flex-1">
+              <input class="w-full h-11 px-4 text-sm rounded-xl bg-surface-container text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-inner text-right border border-white/5" dir="ltr" placeholder="09123456789" type="tel" required/>
+            </div>
+            <button class="h-11 px-5 rounded-xl bg-primary text-on-primary font-semibold text-sm hover:bg-primary-fixed transition-all flex items-center justify-center gap-1 shadow-[0_0_15px_rgba(89,219,199,0.3)] whitespace-nowrap" type="submit">
+              <span>ثبت‌نام</span>
+            </button>
+          </form>
+
+          <div class="flex flex-col gap-2 pt-2">
+            <span class="text-xs text-on-surface-variant">ما را در شبکه‌های اجتماعی دنبال فرمایید:</span>
+            <div class="flex items-center gap-2 flex-wrap">
+              <a class="px-3 py-1.5 rounded-lg bg-surface-container text-xs text-on-surface hover:bg-surface-container-high hover:text-primary transition-all border border-white/5" href="https://eitaa.com" target="_blank" rel="noopener noreferrer">ایتا</a>
+              <a class="px-3 py-1.5 rounded-lg bg-surface-container text-xs text-on-surface hover:bg-surface-container-high hover:text-primary transition-all border border-white/5" href="https://t.me" target="_blank" rel="noopener noreferrer">تلگرام</a>
+              <a class="px-3 py-1.5 rounded-lg bg-surface-container text-xs text-on-surface hover:bg-surface-container-high hover:text-primary transition-all border border-white/5" href="https://ble.ir" target="_blank" rel="noopener noreferrer">بله</a>
+              <a class="px-3 py-1.5 rounded-lg bg-surface-container text-xs text-on-surface hover:bg-surface-container-high hover:text-primary transition-all border border-white/5" href="https://aparat.com" target="_blank" rel="noopener noreferrer">آپارات</a>
+              <a class="px-3 py-1.5 rounded-lg bg-surface-container text-xs text-on-surface hover:bg-surface-container-high hover:text-primary transition-all border border-white/5" href="https://instagram.com" target="_blank" rel="noopener noreferrer">اینستاگرام</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Policies -->
+      <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-outline">
+        <p>© ۱۴۰۳ تمامی حقوق مادی و معنوی متعلق به مجموعه فرهنگی منتظریه مشهد می‌باشد.</p>
+        <div class="flex items-center gap-6">
+          <a class="hover:text-on-surface transition-colors" href="about.html">حریم خصوصی</a>
+          <a class="hover:text-on-surface transition-colors" href="about.html#charter">شیوه‌نامه فعالیت</a>
+          <a class="hover:text-on-surface transition-colors" href="contact.html">سامانه ستادی</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript -->
+  <script src="assets/main.js"></script>
+</body>
+</html>
