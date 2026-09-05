@@ -1,0 +1,185 @@
+/* =========================================================================
+   مجموعه فرهنگی منتظریه مشهد مقدس - استایل‌های اختصاصی و افکت‌های شیشه‌ای
+   Modern Spiritual Islamic Mashhad Complex Design System
+   Compatible directly with GitHub Pages - Zero build step required
+   ========================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+:root {
+  --color-surface: #061423;
+  --color-surface-dim: #061423;
+  --color-surface-bright: #2d3a4a;
+  --color-surface-container-lowest: #020f1e;
+  --color-surface-container-low: #0f1c2c;
+  --color-surface-container: #132030;
+  --color-surface-container-high: #1e2b3b;
+  --color-surface-container-highest: #283646;
+  
+  --color-primary: #59dbc7;
+  --color-primary-container: #00a896;
+  --color-on-primary: #003731;
+  --color-on-primary-container: #00352e;
+  
+  --color-secondary: #e7c268;
+  --color-secondary-container: #715600;
+  --color-on-secondary: #3e2e00;
+  --color-on-secondary-container: #f2cd72;
+  
+  --color-tertiary: #77d4e5;
+  --color-tertiary-container: #40a2b3;
+  
+  --color-on-surface: #d6e4f9;
+  --color-on-surface-variant: #bbcac5;
+  --color-outline: #869490;
+  --color-outline-variant: #3c4946;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020f1e;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2b3b;
+  border-radius: 9999px;
+  border: 2px solid #020f1e;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00a896;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(19, 32, 48, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-luxury {
+  background: linear-gradient(135deg, rgba(30, 43, 59, 0.85), rgba(15, 28, 44, 0.9));
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(231, 194, 104, 0.2);
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.6), 0 0 30px 2px rgba(0, 168, 150, 0.08);
+}
+
+.glass-nav {
+  background: rgba(2, 15, 30, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Spiritual Ambient Glows */
+.ambient-orb {
+  position: absolute;
+  border-radius: 9999px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Gilded and Turquoise Light Blooms */
+.hover-bloom {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hover-bloom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -5px rgba(89, 219, 199, 0.25), inset 0 0 12px rgba(231, 194, 104, 0.1);
+}
+
+/* Audio Waveform Bars Animation */
+@keyframes waveAnim {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
+}
+
+.wave-bar {
+  transform-origin: bottom;
+  animation: waveAnim 1.2s ease-in-out infinite;
+}
+.wave-bar:nth-child(2) { animation-delay: 0.15s; }
+.wave-bar:nth-child(3) { animation-delay: 0.3s; }
+.wave-bar:nth-child(4) { animation-delay: 0.45s; }
+.wave-bar:nth-child(5) { animation-delay: 0.2s; }
+.wave-bar:nth-child(6) { animation-delay: 0.35s; }
+.wave-bar:nth-child(7) { animation-delay: 0.5s; }
+.wave-bar:nth-child(8) { animation-delay: 0.25s; }
+
+.wave-paused .wave-bar {
+  animation-play-state: paused;
+}
+
+/* Material Symbols Adjustments */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+.material-symbols-outlined.filled {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Modal Overlay Animation */
+.modal-overlay {
+  transition: opacity 0.25s ease;
+}
+.modal-overlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal-content {
+  transition: transform 0.25s ease;
+}
+.modal-overlay.hidden .modal-content {
+  transform: scale(0.95);
+}
+
+/* Toast Notifications */
+#toast-container {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.toast {
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: #1e2b3b;
+  color: #d6e4f9;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(89, 219, 199, 0.3);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  animation: slideInToast 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes slideInToast {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
